@@ -232,6 +232,9 @@
   .hero-inner {
     padding: 1rem 0.5rem;
   }
+  .hero-title {
+    font-size: clamp(1.8rem, 8vw, 2.2rem);
+  }
   .hero-stats { 
     gap: 1rem;
     justify-content: space-around;

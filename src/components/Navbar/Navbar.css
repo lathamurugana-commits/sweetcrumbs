@@ -151,6 +151,15 @@
 
 /* Mobile menu */
 @media (max-width: 768px) {
+  .navbar {
+    padding: 0 1rem;
+  }
+  .navbar-logo {
+    font-size: 1.4rem;
+  }
+  .navbar-logo .logo-icon {
+    font-size: 1.25rem;
+  }
   .hamburger { display: flex; }
 
   .navbar-links {
@@ -172,3 +181,16 @@
   .navbar-links a { font-size: 1.15rem; }
 }
 
+@media (max-width: 480px) {
+  .navbar-logo {
+    font-size: 1.2rem;
+  }
+  .navbar-logo .logo-icon {
+    font-size: 1.1rem;
+  }
+  .theme-toggle, .cart-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+}

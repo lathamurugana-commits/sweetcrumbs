@@ -150,7 +150,7 @@
 }
 
 /* Mobile menu */
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .hamburger { display: flex; }
 
   .navbar-links {
@@ -171,3 +171,4 @@
 
   .navbar-links a { font-size: 1.15rem; }
 }
+

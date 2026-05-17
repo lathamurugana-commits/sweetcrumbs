@@ -352,6 +352,12 @@ input, textarea, select {
 }
 
 /* ---------- Responsive ---------- */
+@media (max-width: 1024px) {
+  :root {
+    --section-padding: 5rem 1.5rem;
+  }
+}
+
 @media (max-width: 768px) {
   :root {
     --section-padding: 4rem 1.25rem;
@@ -365,5 +371,19 @@ input, textarea, select {
 @media (max-width: 480px) {
   :root {
     --section-padding: 3rem 1rem;
+  }
+  .toast-container {
+    right: 1rem;
+    left: 1rem;
+    width: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  :root {
+    --section-padding: 2.5rem 0.75rem;
+  }
+  .section-title {
+    font-size: clamp(1.4rem, 4vw, 1.8rem);
   }
 }
